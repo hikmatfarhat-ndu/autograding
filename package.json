@@ -1,7 +1,7 @@
 {
-  "name": "autograding",
-  "version": "1.0.0",
-  "description": "A set of actions for autograding assignments with GitHub Classroom",
+  "name": "hikmat-autograding",
+  "version": "0.0.1",
+  "description": "A modification of autograding GitHub Classroom",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --noEmit && ncc build src/autograding.ts -o dist",
@@ -14,11 +14,11 @@
     "classroom",
     "autograding"
   ],
-  "author": "GitHub",
+  "author": "Hikmat Farhat",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.2.2",
-    "@actions/github": "^2.1.1",
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^2.2.0",
     "tree-kill": "^1.2.2",
     "uuid": "^7.0.1"
   },
